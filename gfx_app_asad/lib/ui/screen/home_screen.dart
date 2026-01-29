@@ -3,7 +3,6 @@ import '../widget/creators_pick.dart';
 import '../widget/asarumu_gfx.dart';
 import '../widget/karhyl_gfx.dart';
 import '../widget/trizero_gfx.dart';
-import '../widget/remote_gallery.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -39,26 +38,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 ],
               ),
             ),
-
-            Container(
-              height: 30,
-              padding: const EdgeInsets.symmetric(horizontal: 10),
-              color: const Color(0xFFFAF7F3),
-              margin: const EdgeInsets.only(top: 20, bottom: 20, right: 10, left: 0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text('Images from Supabase',
-                      style: TextStyle(
-                          color: const Color(0xFF333333),
-                          fontSize: 18,
-                          fontWeight: FontWeight.bold))
-                ],
-              ),
-            ),
-            
-            const RemoteGallery(),
-
 
             Container(
               height: 30,
@@ -108,7 +87,7 @@ class _HomeScreenState extends State<HomeScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text("Karhyl.'s Best Picks",
+                  Text("Karhyl's Best Picks",
                       style: TextStyle(
                           color: const Color(0xFF333333),
                           fontSize: 18,

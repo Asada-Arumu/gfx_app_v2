@@ -61,7 +61,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.start,                
                 children: [                  
-                  Text('Special thanks to:', style: TextStyle(color: const Color(0xFF333333), fontSize: 20, fontWeight: FontWeight.bold)),
+                  Text('Big Special thanks to:', style: TextStyle(color: const Color(0xFF333333), fontSize: 20, fontWeight: FontWeight.bold)),
                 ],
               ),
             ),
@@ -199,9 +199,9 @@ class _ProfileScreenState extends State<ProfileScreen> {
             Container(
               margin: const EdgeInsets.only(left: 15, right: 20, bottom: 30),
               child: Text(
-                'Ini hanya sekedar aplikasi Galeri GFX sederhana oleh Muhammad Asad Al-Mursalin untuk tugas mata kuliah Pemrograman Mobile 2.',
+                'Update dari GFX App yang dikerjakan pada saat UTS sebelumnya. Terdapat perubahan kecil di mana semua gambar kecuali pada halaman profil ini yang di load bukan diambil dari dalam aplikasinya tetapi dari fetch ke database. Tidak ada perubahan besar pada tampilan aplikasi dan fiturnya karena ada beberapa faktor waktu yang bentrok dan keterbatasan pada device.',
                 textAlign: TextAlign.justify,
-                style: TextStyle(fontSize: 16, color: Colors.black54, height: 1.5),
+                style: TextStyle(fontSize: 16, color: Colors.black54, height: 1.75),
               ),
             ),
         

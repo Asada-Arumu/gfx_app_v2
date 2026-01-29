@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "gfx_app_asad",
+            "cwd": "gfx_app_asad",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "gfx_app_asad (profile mode)",
+            "cwd": "gfx_app_asad",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "gfx_app_asad (release mode)",
+            "cwd": "gfx_app_asad",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
