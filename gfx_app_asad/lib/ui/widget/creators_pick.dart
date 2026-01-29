@@ -65,6 +65,7 @@ class _CreatorsPickState extends State<CreatorsPick> {
               ),
             );
           }).toList(),
+          
           options: CarouselOptions(
             height: 500,
             autoPlay: true,
